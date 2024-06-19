@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css  ">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Momentum Digital Marketing</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top" data-bs-theme="dark"> <!--lg(large) sm(small) md(medium), bg-body-tertiary(cinza) bg-dark(escuro)-->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Momentum Digital Marketing</a> <!--brand(marca)-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span> 
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!--collapse(colapssar o menu, expandir ou recolher)-->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link link-hover active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-hover" href="./pages/login.html">Cadastro</a>
+            </li>
+            <li class="nav-item"> <!--ALT+SHIFT+SETAPRABAIXO = DUPLICAR-->
+              <a class="nav-link link-hover" href="#">Lista de Usuários</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+        <!-- Barra de menu -->
+        
+        <!-- Carrossel de Imagens -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+            <div class="carousel-indicators">
+              <button type="button" 
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0" cla2ss="active" aria-current="true" aria-label="Slide 1">
+              </button>
+              <button type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1" aria-label="Slide 2">
+              </button>
+              <button type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2" aria-label="Slide 3">
+              </button>
+            </div>
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./public/assets/imagens/slides/slide1.jpg" class="d-block w-100" alt="...">
+              </div>
+
+              <div class="carousel-item">
+                <img src="./public/assets/imagens/slides/slide2.webp" class="d-block w-100" alt="...">
+              </div>
+              
+              <div class="carousel-item">
+                <img src="./public/assets/imagens/slides/slide3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </header>
+
+    <main class="bg-light container-fluid">
+      <!-- Perfil dos palestrantes -->
+      <section class="container pt-3">
+        <section class="row">
+          <div class="text-center mb-2 col-lg-4 col-md-7">
+            <img src="./public/assets/perfil/perfil1.png" class="rounded-circle img-thumbnail w-200" alt="">
+            <h2>Mauro Silva</h2>
+            <p>Especialista em Marketing de Mídias Sociais Mauro é um estrategista de mídias sociais experiente, com mais de 10 anos de atuação no mercado</p>
+            <a class="btn btn-secondary" href="">Mais detalhes</a>
+          </div>
+          <div class="text-center mb-2 col-lg-4 col-md-7">
+            <img src="./public/assets/perfil/perfil2.jpg" class="rounded-circle img-thumbnail w-200" alt="">
+            <h2>Samantha Torres</h2>
+            <p>Especialista em Estratégias de Conteúdo, Com sua paixão e expertise no mercado de marketing de mídias sociais,
+              ela está pronta para compartilhar seus segredos sobre como criar e distribuir conteúdo de alta qualidade para impulsionar sua presença online</p>
+            <a class="btn btn-secondary" href="">Mais detalhes</a>
+          </div>
+          <div class="text-center mb-2 col-lg-4 col-md-7">
+            <img src="./public/assets/perfil/perfil3.jpg" class="rounded-circle img-thumbnail w-200" alt="">
+            <h2>Fernando Santos</h2>
+            <p>Especialista em Engajamento do Público, possui uma ampla experiência em criar conteúdo envolvente e interativo,
+              que captura a atenção do público-alvo e incentiva a participação ativa</p>
+            <a class="btn btn-secondary" href="">Mais detalhes</a>
+          </div>
+        </section>
+        <!-- Bloco das Informações -->
+        <hr class="my-5">
+        <section class="container">     
+          <section class="row align-items-center">
+            <div class="col-md-7">
+              <h1>Palestrantes Inspiradores.</h1>
+              <h3>Inscreva-se agora e aprenda com os melhores!</h3>
+              <p class="lead">Descubra as mentes brilhantes que irão transformar sua visão sobre marketing de mídias sociais.</p>
+            </div>
+            <figure class="col-md-5">
+              <img src="./public/assets/imagens/blocos/bloco1.jpg" class="w-450 rounded shadow img-fluid" alt="">
+            </figure>
+          </section>
+          <hr class="my-5">
+
+          <section class="row align-items-center">
+            <div class="col-md-7 order-md-2">
+              <h1>Conhecimentos Estratégicos em Destaque.</h1>
+              <h3>Domine as principais táticas de mídias sociais para impulsionar seu negócio!</h3>
+              <p class="lead">Descubra as estratégias comprovadas que irão aumentar sua presença online e alcançar o sucesso desejado.</p>
+            </div>
+            <figure class="col-md-5 order-md-1">
+              <img src="./public/assets/imagens/blocos/bloco2.jpg" class="w-450 rounded shadow img-fluid" alt="">
+            </figure>
+          </section>
+          <hr class="my-5">
+
+          <section class="row align-items-center">
+            <div class="col-md-7  ">
+              <h1>Networking e Oportunidades de Negócios.</h1>
+              <h3>Conecte-se com os líderes da indústria e amplie sua rede de contatos!</h3>
+              <p class="lead">Faça parte de um evento exclusivo que oferece oportunidades únicas para conhecer e interagir com profissionais influentes.</p>
+            </div>
+            <figure class="col-md-5">
+              <img src="./public/assets/imagens/blocos/bloco3.jpg" class="w-450 rounded shadow img-fluid" alt="">
+            </figure>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <footer class="container-fluid bg-dark text-white pt-3">
+      <section class="row">
+        <div class="col-md-9">
+          <p>&copy;2024 Momentum Digital Marketing |
+            <a href="">Privacidade</a> |
+            <a href="">Políticas</a>
+          </p>
+        </div>
+
+        <div class="col-md-3">
+          <div class="fs-5 d-flex justify-content-around social">
+            <a href="" class="text-white">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="" class="text-white">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="" class="text-white">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+            <a href="" class="text-white">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a href="" class="text-white">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
